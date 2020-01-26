@@ -1,6 +1,6 @@
 # Личный проект «Техномарт»
 
-* Студент: [Юлька Щёткина](https://up.htmlacademy.ru/htmlcss/27/user/1274659).
+* Студент: [Юлька Щёткина](https://htmlacademy.ru/profile/id1274659).
 * Наставник: [Натали Белоева](https://htmlacademy.ru/profile/id1123699)
 
 ---
