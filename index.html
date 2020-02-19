@@ -10,10 +10,16 @@
     </a>
      <form>
       <input type="search">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+       <path fill="#ffffff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5
+        7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2
+        4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506
+        5.506 0 0 1 2 7.5z"/>
+      </svg>
      </form>
-     <a href="#">Закладки:</a>
-     <a href="#">Корзина:</a>
-     <a href="#">Оформить заказ</a>
+     <a href="bookmark.html">Закладки:</a>
+     <a href="basket.html">Корзина:</a>
+     <a href="checkout.html">Оформить заказ</a>
     <section>
     <h1>
     Интернет-магазин
@@ -25,8 +31,8 @@
     г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
    </address>
    <ul>
-    <li><a href="#">Войти</a></li>
-    <li><a href="#">Регистрация</a></li>
+    <li><a href="login.html">Войти</a></li>
+    <li><a href="registration.html">Регистрация</a></li>
    </ul>
   </section>
    <nav>
@@ -61,8 +67,31 @@
     <h2>Контакты</h2>
     <p>Вы можете забрать товар сами
     заехав в наш офис:</p>
-    <a href="#"><img src="minimaps.jpg" width="300" height="158" alt="Карта"></a>
+    <a href="#"><img src="minimaps.jpg" width="300" height="158"
+      alt="Офис компании по адресу ул. Б.Конюшенная, д. 19/8, г. Санкт-Петербург">
+    </a>
     <a href="#">Заблудились? Напишите нам!</a>
+  </section>
+  <section>
+    <img src="bug-maps.jpg" width="940" height="446"
+      alt="Офис компании по адресу ул. Б.Конюшенная, д. 19/8, г. Санкт-Петербург">
+    <h2>Обратная связь</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="appointment-name">Ваше имя:</label>
+          <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="appointment-e-mail">Ваш e-mail:</label>
+          <input id="appointment-e-mail" type="e-mail" name="e-mail" value="" placeholder="email@example.ru">
+        </p>
+        <p>
+          <label for="appointment-text">Текст письма:</label>
+          <input id="appointment-text" type="text" name="text" value="" placeholder="В свободной форме">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
   </section>
  </main>
  <footer>
@@ -90,14 +119,9 @@
  </p>
  <div>
   <ul>
-   <li><a href="#">
-     <img src="img/icon-vk.svg" width="26" height="15" alt="vk">Вконтакте</a></li>
-      <li><a href="#">
-     <img src="img/icon-fb.svg" width="12" height="22" alt="fb">Фейсбук</a></li>
-      <li><a href="#">
-     <img src="img/icon-insta.svg" width="21" height="21" alt="instagram">
-     Инстаграм</a>
-   </li>
+   <li><a href="#">Вконтакте</a></li>
+   <li><a href="#">Фейсбук</a></li>
+   <li><a href="#">Инстаграм</a></li>
   </ul>
  </div>
  <p>Обратная связь:
