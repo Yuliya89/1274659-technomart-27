@@ -17,9 +17,9 @@
       5.506 0 0 1 2 7.5z"/>
     </svg>
    </form>
-   <a href="bookmark.html">Закладки:</a>
-   <a href="basket.html">Корзина:</a>
-   <a href="checkout.html">Оформить заказ</a>
+   <a href="#">Закладки:</a>
+   <a href="#">Корзина:</a>
+   <a href="#">Оформить заказ</a>
    <section>
     <h1>
     Интернет-магазин
@@ -65,34 +65,34 @@
     <h3>Производители</h3>
     <ul>
      <li>
-       <input type="checkbox" name="bosch" checked>Bosch
-       <label for="bosch">Bosch</label>
+       <input id="bocsh" type="checkbox" name="bosch" checked>
+       <label for="bocsh">Bosch</label>
      </li>
      <li>
-       <input type="checkbox" name="interscol">Интерскол
+       <input id="interscol" type="checkbox" name="interscol">
        <label for="interscol">Интерскол</label>
      </li>
      <li>
-       <input type="checkbox" name="makita" checked>Makita
+       <input id="makita" type="checkbox" name="makita" checked>
        <label for="makita">Makita</label>
      </li>
      <li>
-       <input type="checkbox" name="dewalt">Dewalt
+       <input id="dewalt" type="checkbox" name="dewalt">
        <label for="dewalt">Dewalt</label>
      </li>
      <li>
-       <input type="checkbox" name="hitachi">Hitachi
+       <input id="hitachi" type="checkbox" name="hitachi">
        <label for="hitachi">Hitachi</label>
      </li>
     </ul>
     <h3>Питание</h3>
     <ul>
      <li>
-       <input type="radio" name="nutrition" value="accumulator">Аккумуляторные
+       <input id="filter-accumulator" type="radio" name="nutrition" value="accumulator">Аккумуляторные
        <label for="filter-accumulator">Аккумуляторные</label>
      </li>
      <li>
-       <input type="radio" name="nutrition" value="network" checked>Сетевые
+       <input id="filter-network" type="radio" name="nutrition" value="network" checked>Сетевые
        <label for="filter-network">Сетевые</label>
      </li>
     </ul>
@@ -103,28 +103,40 @@
     <ul class="catalog-list">
      <li class="catalog-item">
        <h3>
-         <a class="catalog-category">
-           <span>Перфоратор BOSCH</span>
-           <span>BFG 3000</span>
+         <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 3000
          </a>
        </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>22500</p>
-      <p>15500 Р.</p>
+      <a href="#">
+        <img src="img/perforator_3.jpg" width="218" height="170" alt="perforator_3">
+      </a>
+      <del>22500</del>
+      <ins>15500 Р.</ins>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
        <h3>
-         <a class="catalog-category">
-           <span>Перфоратор BOSCH</span>
-           <span>BFG 6000</span>
+         <a href="#" class="catalog-category">
+           Перфоратор BOSCH
+           BFG 6000
          </a>
        </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>30500</p>
-      <p>25500 Р.</p>
+       <a href="#">
+         <img src="img/perforator_2.jpg" width="218" height="170" alt="perforator_2">
+       </a>
+      <del>30500</del>
+      <ins>25500 Р.</ins>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
-      <div class="catalog-item">
+      <div class="pop-up">
        <a class="button" href="#">Купить</a>
        <a class="button" href="#">В закладки</a>
       </div>
@@ -134,93 +146,128 @@
        </div>
       </div>
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 2000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 2000
         </a>
       </h3>
       <p>12500 Р.</p>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 3000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 3000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>22500</p>
-      <p>15500 Р.</p>
+      <a href="#">
+        <img src="img/perforator_3.jpg" width="218" height="170" alt="perforator_3">
+      </a>
+      <del>22500</del>
+      <ins>15500 Р.</ins>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 6000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 6000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>30500</p>
-      <p>25500 Р.</p>
+      <a href="#">
+        <img src="img/perforator_2.jpg" width="218" height="170" alt="perforator_2">
+      </a>
+      <del>30500</del>
+      <ins>25500 Р.</ins>
       <div class="content">
        <div class="trapezoid">
         <label>new</label>
        </div>
       </div>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 2000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 2000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
+      <a href="#">
+        <img src="img/perforator_3.jpg" width="218" height="170" alt="perforator_3">
+      </a>
       <p>12500 Р.</p>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 3000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 3000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>22500</p>
-      <p>15500 Р.</p>
+      <a href="#">
+        <img src="img/perforator_3.jpg" width="218" height="170" alt="perforator_3">
+      </a>
+      <del>22500</del>
+      <ins>15500 Р.</ins>
       <div class="content">
        <div class="trapezoid">
         <label>new</label>
        </div>
       </div>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 6000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 6000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
-      <p>30500</p>
-      <p>25500 Р.</p>
+      <a href="#">
+        <img src="img/perforator_2.jpg" width="218" height="170" alt="perforator_2">
+      </a>
+      <del>30500</del>
+      <ins>25500 Р.</ins>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
      <li class="catalog-item">
       <h3>
-        <a class="catalog-category">
-          <span>Перфоратор BOSCH</span>
-          <span>BFG 2000</span>
+        <a href="#" class="catalog-category">
+          Перфоратор BOSCH
+          BFG 2000
         </a>
       </h3>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="#"></a>
+      <a href="#">
+        <img src="img/perforator_3.jpg" width="218" height="170" alt="perforator_3">
+      </a>
       <p>12500 Р.</p>
+      <div class="pop-up">
+       <a class="button" href="#">Купить</a>
+       <a class="button" href="#">В закладки</a>
+      </div>
      </li>
     </ul>
-    <section>
-      <h1>Товар добавлен в корзину</h1>
-      <button type="submit">Оформить заказ</button>
-      <button type="button">Продолжить покупку</button>
-    </section>
     <ul class="pagination-list">
      <li class="pagination-item pagination-item-current"><a>1</a></li>
      <li class="pagination-item"><a href="#">2</a></li>
@@ -268,5 +315,10 @@
     <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
    </p>
   </footer>
+  <section>
+    <h2>Товар добавлен в корзину</h2>
+    <a href="#" class="button">Оформить заказ</a>
+    <a href="#" class="button">Продолжить покупку</a>
+  </section>
  </body>
 </html>
